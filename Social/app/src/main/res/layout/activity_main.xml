@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="455dp"
+        android:text="INSTAGRAM"
+        android:textStyle="bold"
+        android:textColor="#050505"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="455dp"
+        android:text="WHATSAPP"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="446dp"
+        android:text="FACEBOOK"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <ImageButton
+        android:id="@+id/i6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="353dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/twitter"
+        android:background="#FFFF"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="79dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="318dp"
+        android:text="TWITTER"
+        android:textStyle="bold"
+        android:textColor="#050505"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <ImageButton
+        android:id="@+id/i5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="350dp"
+        android:background="#FFFF"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/gmail"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="321dp"
+        android:text="GMAIL"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="73dp"
+        android:layout_height="29dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="322dp"
+        android:textColor="#050505"
+        android:text="GOOGLE"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <ImageButton
+        android:id="@+id/i7"
+        android:layout_width="100dp"
+        android:layout_height="108dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="217dp"
+        android:background="#FFFF"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/youtube"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="72dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="293dp"
+        android:layout_marginBottom="185dp"
+        android:text="YOUTUBE"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <ImageButton
+        android:id="@+id/i1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="495dp"
+        android:scaleType="centerCrop"
+        android:background="#FFFF"
+        app:srcCompat="@drawable/instagram" />
+
+    <ImageButton
+        android:id="@+id/i2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="496dp"
+        android:background="#FFFF"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/whatsapp" />
+
+    <ImageButton
+        android:id="@+id/i3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="491dp"
+        android:background="#FFFF"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageButton
+        android:id="@+id/i4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="361dp"
+        android:background="#FFFF"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/chrome" />
+
+    <ImageButton
+        android:id="@+id/i8"
+        android:layout_width="100dp"
+        android:layout_height="108dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="211dp"
+        android:background="#FFFF"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/skype"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="72dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="184dp"
+        android:text="Snapchat"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <ImageButton
+        android:id="@+id/i9"
+        android:layout_width="100dp"
+        android:layout_height="108dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="216dp"
+        android:background="#FFFF"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/snapchat"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="63dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="183dp"
+        android:text="Skype"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+</RelativeLayout>
